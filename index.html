@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="as">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>শংকৰদেও শিশু নিকেতন বকো</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        /* HEADER */
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 40px;
+            font-size: 32px;
+            font-weight: bold;
+            position: relative;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .header-title {
+            margin: 0;
+        }
+
+        .header-subtitle {
+            font-size: 20px;
+            font-weight: normal;
+            margin-top: 5px;
+        }
+
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: auto;
+        }
+
+        .right-logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 60px;
+            height: auto;
+        }
+
+        /* NAVIGATION BAR */
+        .nav-bar {
+            background: #ffffff;
+            padding: 15px 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-bar a {
+            color: #004370;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 20px;
+            transition: 0.3s ease-in-out;
+        }
+
+        .nav-bar a:hover {
+            background: #f0f0f0;
+            transform: scale(1.05);
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: 
+                linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('bg.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 180px 20px;
+            font-size: 32px;
+            font-weight: bold;
+            position: relative;
+        }
+
+        .hero h1 {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* CONTENT CONTAINER */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .container h2 {
+            color: #2575fc;
+            font-size: 28px;
+        }
+
+        .container p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* NEWS & UPDATES SECTION */
+        .news-section {
+            background: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-section h2 {
+            color: #2575fc;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+
+        .news-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .news-section li {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        /* NOTICE BOARD */
+        .notice-board {
+            background: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 30px auto;
+            max-width: 1200px;
+            border-radius: 10px;
+        }
+
+        .notice-board h2 {
+            color: #d9534f;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .notice-board ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .notice-board li {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* RESPONSIVE DESIGN */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 120px 20px;
+                font-size: 24px;
+            }
+
+            .nav-bar {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+
+            .nav-bar a {
+                padding: 8px 12px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="ss.png" alt="School Logo" class="logo">
+        <img src="bv.png" alt="Right Corner Logo" class="right-logo">
+        <h1 class="header-title">শংকৰদেও শিশু/বিদ্যা নিকেতন বকো</h1>
+        <p class="header-subtitle">স্থাপিত-১৯৯৫</p>
+    </header>
+
+    <!-- NAVIGATION BAR -->
+    <div class="nav-bar">
+        <a href="#home">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="#">Admission</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contactus.html">Contact Us</a>
+    </div>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <h1>শিক্ষাৰ ক্ষেত্ৰত আনুচিত্যতা, ভৱিষ্যত প্ৰজন্ম গঠনৰ বাবে</h1>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+        <h2>আমাৰ বিদ্যালয়ত স্বাগতম</h2>
+        <p>
+            আমি গুণগত শিক্ষাৰ যোগেদি যুব মনসমূহৰ ক্ষমতাশালী কৰি উজ্জ্বল ভৱিষ্যত গঠনৰ বিশ্বাসী।  
+            উৎকৃষ্টতাৰ এই যাত্ৰাত আমাৰ লগত যোগদান কৰক!
+        </p>
+    </div>
+
+    <!-- NEWS & UPDATES SECTION -->
+    <div class="news-section">
+        <h2>News & Updates</h2>
+        <ul>
+            <li>📢 <strong>New Admission Open:</strong> 2025 session enrollment has started. Apply now!</li>
+            <li>🏆 <strong>Achievements:</strong> Our students secured top positions in the district-level Science Olympiad.</li>
+            <li>📅 <strong>Upcoming Events:</strong> Annual Sports Day on March 25, 2025.</li>
+        </ul>
+    </div>
+
+    <!-- NOTICE BOARD -->
+    <div class="notice-board">
+        <h2>📌 Notice Board</h2>
+        <ul>
+            <li>📢 Parent-Teacher Meeting: March 20, 2025.</li>
+            <li>📌 Exam Dates: April 5, 2025.</li>
+            <li>🚸 School Holidays: April 14 (Bihu).</li>
+        </ul>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        &copy; ২০২৫ শংকৰদেও শিশু নিকেতন বকো. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
